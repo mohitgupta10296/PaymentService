@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://mohitgeu96:A12345bc%40@cluster0.2zk08hy.mongodb.net/paymentdb?retryWrites=true&w=majority&appName=Cluster0
+      database: Payment
+server:
+  port: 8083
+
+logging:
+  level:
+    root: info
+    com.project: DEBUG
+
